@@ -113,6 +113,10 @@
   margin-left: 0.5rem;
 }
 
+.cartHeading {
+  font-family: "Roboto", sans-serif;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

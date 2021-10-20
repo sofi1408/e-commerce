@@ -1,0 +1,93 @@
+.itemDetails {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.itemImage {
+  height: 150px;
+  width: 150px;
+}
+
+.itemImage img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: inherit;
+}
+
+.title {
+  font-size: 16px;
+  color: #212121;
+  line-height: 1;
+  display: inline;
+  font-weight: 500;
+}
+
+.cartItem {
+  border-top: 1px solid #f0f0f0 !important;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+  padding: 24px;
+}
+
+.itemData {
+  padding: 0 24px 12px;
+  vertical-align: top;
+  min-height: 112px;
+  flex: 1 1;
+}
+
+.desc {
+  padding: 30px 0;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.itemCounterWrapper {
+  width: 150px;
+}
+
+.itemCounter {
+  text-align: center;
+}
+
+.savenremove {
+  padding: 5px 24px 12px;
+  font-weight: 700;
+  display: flex;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.remove {
+  margin-left: 30px;
+}
+
+.btn {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(#fff, #f9f9f9);
+  display: inline-block;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50%;
+  padding-top: 1px;
+  line-height: 1;
+}
+
+.itemCount {
+  width: 46px;
+  height: 28px;
+  border: 1px solid #c2c2c2;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 3px;
+  text-align: center;
+}
+
+.itemActions {
+  padding-top: 20px;
+  display: flex;
+}
